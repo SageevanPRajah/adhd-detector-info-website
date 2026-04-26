@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Domain | ADHD AI Platform</title>
+  <link rel="stylesheet" href="../assets/css/style.css" />
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a href="../index.html" class="nav-brand">
+      <div class="nav-brand-icon">AI</div>
+      <div>
+        <div class="nav-brand-text">ADHD AI Platform</div>
+        <div class="nav-brand-sub">25-26J-268 · SLIIT</div>
+      </div>
+    </a>
+    <ul class="nav-links">
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="domain.html">Domain</a></li>
+      <li><a href="milestones.html">Milestones</a></li>
+      <li><a href="documents.html">Documents</a></li>
+      <li><a href="presentations.html">Presentations</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <div class="hamburger"><span></span><span></span><span></span></div>
+  </div>
+</nav>
+
+<div class="page-hero">
+  <div class="page-hero-waves">
+    <div class="wave"></div><div class="wave"></div>
+    <div class="wave"></div><div class="wave"></div>
+  </div>
+  <div class="page-hero-inner">
+    <div class="breadcrumb"><a href="../index.html">Home</a><span class="breadcrumb-sep">/</span>Domain</div>
+    <h1>Research Domain</h1>
+    <p>Literature survey, research gap, objectives, methodology, and technologies used in our ADHD detection platform.</p>
+  </div>
+</div>
+
+<!-- LITERATURE SURVEY -->
+<section class="section">
+  <div class="section-inner">
+    <span class="section-tag">Literature Survey</span>
+    <h2 class="section-title">Background &amp; <span>Prior Work</span></h2>
+    <p class="section-desc">ADHD (Attention Deficit Hyperactivity Disorder) is one of the most common neurodevelopmental disorders in children, affecting approximately 5-10% of the global child population. Current diagnostic procedures rely heavily on behavioral questionnaires and clinical observations, which are inherently subjective and resource-intensive.</p>
+    <div class="cards-grid" style="margin-top:2rem">
+      <div class="card">
+        <div class="card-icon">📊</div>
+        <h3>Traditional Methods</h3>
+        <p>DSM-5 criteria-based assessments using Conners Rating Scales and clinical interviews, requiring 4-6 hours of specialist time per child.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">🧠</div>
+        <h3>Neuroimaging Approaches</h3>
+        <p>fMRI and EEG-based studies have identified neural markers of ADHD, but high cost and accessibility limit clinical deployment.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">💻</div>
+        <h3>Computational Methods</h3>
+        <p>Machine learning models trained on single behavioral modalities (eye movement alone, or handwriting alone) show promising results but lack integration.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">🎮</div>
+        <h3>Gamification in Diagnosis</h3>
+        <p>Child-friendly gamified tasks increase data quality and reduce assessment anxiety, improving the reliability of behavioral measurements.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- RESEARCH GAP & PROBLEM -->
+<section class="section section-alt">
+  <div class="section-inner">
+    <div class="two-col">
+      <div>
+        <span class="section-tag">Research Gap</span>
+        <h2 class="section-title">What's <span>Missing</span></h2>
+        <p class="section-desc">Existing ADHD detection methods rely on time-consuming manual clinical observations and rarely integrate multiple behavioral indicators into a single automated system.</p>
+        <ul class="highlight-list" style="margin-top:1.5rem">
+          <li>No unified multimodal behavioral analysis platform exists</li>
+          <li>Individual modalities (speech, eye-tracking) studied in isolation</li>
+          <li>Limited child-appropriate interfaces for data collection</li>
+          <li>Lack of real-time AI prediction in clinical settings</li>
+          <li>High cost barriers prevent widespread screening</li>
+        </ul>
+      </div>
+      <div>
+        <div class="highlight-box">
+          <h3>Research Problem</h3>
+          <p>How can a multimodal AI system integrating eye-tracking, posture analysis, speech patterns, and handwriting behavior provide an accurate, accessible, and efficient early screening tool for ADHD in children, reducing dependence on lengthy manual clinical observations?</p>
+        </div>
+        <div style="margin-top:1.5rem">
+          <div class="highlight-box" style="background:linear-gradient(135deg,#1a5c3a,#2d8a57)">
+            <h3>Main Objective</h3>
+            <p>To develop an AI-based early ADHD screening system that analyzes speech, handwriting, visual attention, and cognitive behavior to help doctors detect potential ADHD indicators in children more efficiently.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- OBJECTIVES -->
+<section class="section">
+  <div class="section-inner">
+    <span class="section-tag">Research Objectives</span>
+    <h2 class="section-title">Specific <span>Goals</span></h2>
+    <div class="cards-grid">
+      <div class="card"><div class="card-icon">🎯</div><h3>Obj 1 · Eye Tracking</h3><p>Develop a computer vision model to detect visual attention deficits through gaze patterns and fixation analysis during gamified tasks.</p></div>
+      <div class="card"><div class="card-icon">🎯</div><h3>Obj 2 · Posture Detection</h3><p>Build a pose estimation system to quantify hyperactivity and impulsivity through body movement patterns captured via webcam.</p></div>
+      <div class="card"><div class="card-icon">🎯</div><h3>Obj 3 · Speech Analysis</h3><p>Create an NLP/audio ML model to identify speech-language patterns including interruptions, pace anomalies, and word repetition associated with ADHD.</p></div>
+      <div class="card"><div class="card-icon">🎯</div><h3>Obj 4 · Handwriting</h3><p>Design a digital handwriting analysis module to assess fine motor control, pressure variation, and drawing consistency.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- METHODOLOGY -->
+<section class="section section-alt">
+  <div class="section-inner">
+    <span class="section-tag">Methodology</span>
+    <h2 class="section-title">System <span>Architecture &amp; Flow</span></h2>
+    <p class="section-desc">The platform follows a microservices approach with a FastAPI backend orchestrating four independent AI model services, all accessible through a unified child-friendly interface.</p>
+    <div class="arch-diagram" style="margin-top:2rem">
+      <div class="arch-row">
+        <div class="arch-box mid" style="min-width:200px">👶 Child / User Interface<br><span class="arch-label">Web / Mobile App</span></div>
+      </div>
+      <div class="arch-row"><div class="arch-arrow">↕</div></div>
+      <div class="arch-row">
+        <div class="arch-box dark" style="min-width:200px">Backend API Server<br><span class="arch-label" style="color:rgba(255,255,255,0.6)">FastAPI / Python · REST APIs · JSON</span></div>
+      </div>
+      <div class="arch-row"><div class="arch-arrow">↓</div></div>
+      <div class="arch-row">
+        <div class="arch-box">Eye Tracking Model<br><span class="arch-label">Visual Attention Analysis</span></div>
+        <div class="arch-box">Posture Detection<br><span class="arch-label">Computer Vision</span></div>
+        <div class="arch-box">Speech Analysis<br><span class="arch-label">Voice Pattern Analysis</span></div>
+        <div class="arch-box">Handwriting Analysis<br><span class="arch-label">Digital Behaviour</span></div>
+      </div>
+      <div class="arch-row"><div class="arch-arrow">↓</div></div>
+      <div class="arch-row">
+        <div class="arch-box mid" style="min-width:200px">Database / Storage<br><span class="arch-label">Behavioral data &amp; prediction results</span></div>
+        <div class="arch-box dark" style="min-width:180px">🖥️ Doctor Dashboard<br><span class="arch-label" style="color:rgba(255,255,255,0.6)">ADHD Probability Results</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TECHNOLOGIES -->
+<section class="section">
+  <div class="section-inner">
+    <span class="section-tag">Technologies Used</span>
+    <h2 class="section-title">Tech <span>Stack</span></h2>
+    <div class="cards-grid">
+      <div class="card"><div class="card-icon">🐍</div><h3>Python / FastAPI</h3><p>Backend API server handling data transmission between the frontend interface and AI model layer using REST APIs and JSON format.</p></div>
+      <div class="card"><div class="card-icon">🤖</div><h3>TensorFlow / PyTorch</h3><p>Deep learning frameworks used for training and deploying the eye-tracking, posture, speech, and handwriting classification models.</p></div>
+      <div class="card"><div class="card-icon">👁️</div><h3>OpenCV / MediaPipe</h3><p>Computer vision libraries for real-time eye tracking, gaze estimation, and pose detection from webcam streams.</p></div>
+      <div class="card"><div class="card-icon">🎵</div><h3>Librosa / Whisper</h3><p>Audio processing and speech recognition libraries for extracting speech pattern features and transcribing child responses.</p></div>
+      <div class="card"><div class="card-icon">🗄️</div><h3>MongoDB / Firebase</h3><p>NoSQL database for secure storage of behavioral data, model predictions, and patient profiles.</p></div>
+      <div class="card"><div class="card-icon">⚛️</div><h3>React.js</h3><p>Child-friendly frontend interface built with React, providing an engaging, gamified experience for task completion.</p></div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-brand">AI-Driven Gamified ADHD Platform</div>
+  <p>Group 25-26J-268 &nbsp;·&nbsp; SLIIT Faculty of Computing &nbsp;·&nbsp; 2025/2026<br>
+  <a href="http://cdap.sliit.lk/">cdap.sliit.lk</a></p>
+</footer>
+
+<script src="../assets/js/main.js"></script>
+</body>
+</html>
